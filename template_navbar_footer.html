@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template 1</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fiesto.css">
+
+</head>
+<body>
+
+	<!-- Pinggir atau Sidebar -->
+	<div id="mySidenav" class="pinggir">
+		<a href="javascript:void(0)" class="closebtn" onclick="tutupNav()">&times;</a>
+		<ul>
+				<li><span>Fiesto Car</span></li>
+				<!-- Ganti menu yang ada disini sesauai keinginan -->
+				<!-- Gunakan <li> tag dan beri class dengan nama "tml-pinggir" -->
+
+				<li class="tml-pinggir" id="a"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Masuk</a></li>
+				<li class="tml-pinggir"><a href="#">Daftar</a></li>
+
+				<!-- Ganti menu yang ada disini sesauai keinginan -->
+			</ul>
+	</div>
+
+	<!-- Header -->
+	<header class="header-area">
+		<div class="tml-menu" onclick="bukaNav()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<img src="img/logo.png" class="gambar">
+		<a href="#" class="judul">Fiesto Car</a>
+
+		<div class="menu-header">
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+			<!-- Gunakan <a> tag dan beri class dengan nama "menu-header-a" -->
+
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<div class="btn-group">
+				<a href="#" class="btn btn-outline-light">Masuk</a>
+				<a href="#" class="btn btn-outline-light">Daftar</a>
+			</div>
+
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+		</div>
+	</header>
+
+	<!-- ISI KONTEN DISINI -->
+
+	<div class="konten">
+		<h1>INI TEMPAT KONTEN</h1>
+		<h5>Ini adalah template navbar dan footer</h5>
+		<h5>>>>ganti kata-kata ini dengan isi KONTEN <<<</h5>
+	</div>
+
+	<!-- DIATAS INI ADALAH KONTEN -->
+
+	<!-- Footer -->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="footer-kata">
+						<h4>Layanan Pelanggan</h4>
+						<ul>
+							<li><a href="#">Bantuan</a></li>
+							<li><a href="#">Syarat & Ketentuan</a></li>
+							<li><a href="#">Hubungi Kami</a></li>
+						</ul>								
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="footer-kata">
+						<h4>Fiesto Car</h4>
+						<ul>
+							<li><a href="#">Tim Kami</a></li>
+							<li><a href="#">Partner Kami</a></li>
+						</ul>								
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="footer-kata">
+						<h4>Ada Pertanyaan ?</h4>
+						<ul>
+							<li>
+								<span>E-mail:</span>
+								<p>alfibagus130@gmail.com</p>
+							</li>
+							<li>
+								<span>No Telp:</span>
+								<p>08129373XXXX</p>
+							</li>
+						</ul>								
+					</div>
+				</div>
+				<p class="footer-copyright col-lg-12 c">
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> Fiesto Car | All rights reserved
+				</p>
+
+			</div>
+		</div>
+	</footer>
+
+	<!-- SCRIPT DISINI ======================= -->
+	<script>
+		function bukaNav() {
+			document.getElementById('mySidenav').style.width = "100%";
+		}
+		function tutupNav() {
+			document.getElementById('mySidenav').style.width = "0";
+		}
+	</script>
+
+	<script href="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script href="assets/js/popper.min.js" type="text/javascript"></script>
+	<script href="assets/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contoh header</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fiesto.css">
+
+</head>
+<body>
+
+	<!-- Menu pinggir atau Sidebar -->
+	<div id="mySidenav" class="pinggir">
+		<a href="javascript:void(0)" class="closebtn" onclick="tutupNav()">&times;</a>
+		<ul>
+				<li><span>Fiesto Car</span></li>
+				<!-- Ganti menu yang ada disini sesauai keinginan -->
+				<!-- Gunakan <li> tag dan beri class dengan nama "tml-pinggir" -->
+
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+
+				<!-- Ganti menu yang ada disini sesauai keinginan -->
+			</ul>
+	</div>
+	<!-- Akhir dari Menu pinggir atau Sidebar -->
+
+	<div class="akun-menu" id="akun-menu">
+		<div class="panah"></div>
+		<div class="badan-akun-menu">
+			<a href="#"><p>@ Bagus Alfiras</p></a>
+			<div class="pembelah-menu"></div>
+			<a href="#"><p>Garasi</p></a>
+			<a href="#"><p>Keluar</p></a>
+		</div>
+	</div>
+
+	<header class="header-area">
+		<div class="tml-menu" onclick="bukaNav()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<img src="img/logo.png" class="gambar">
+		<a href="#" class="judul">Fiesto Car</a>
+
+		<div class="menu-header">
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+			<!-- Gunakan <a> tag dan beri class dengan nama "menu-header-a" -->
+
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+
+		</div>
+
+		<a href="#" onclick="akunMenu()">
+			<div class="akun">
+				<img src=	"img/logo.png">
+			</div>
+		</a>
+
+	</header>
+
+	<script type="text/javascript">
+		var akun_menu = false;
+		function bukaNav() {
+			document.getElementById('mySidenav').style.width = "100%";
+			document.getElementById('akun-menu').style.display = "none";
+			akun_menu = false;
+		}
+		function tutupNav() {
+			document.getElementById('mySidenav').style.width = "0";
+		}
+		function akunMenu(){
+			if (akun_menu == false) {
+				document.getElementById('akun-menu').style.display = "block";
+				akun_menu = true;
+			}else{
+				document.getElementById('akun-menu').style.display = "none";
+				akun_menu = false;
+			}
+		}
+	</script>
+
+	<script href="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script href="assets/js/popper.min.js" type="text/javascript"></script>
+	<script href="assets/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

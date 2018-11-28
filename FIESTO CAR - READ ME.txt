@@ -1,0 +1,53 @@
+#########################################################################################
+
+PETUNJUK PENGGUNAAN fiesto.css
+
+																CSS INI DIKEMBANGKAN DAN DIPAKAI UNTUK PROJECT Fiesto Car
+
+Log:
+Versi 0.0.0.1 : Penambahan tombol-tombol
+Versi 0.0.0.2 : Penambahan Input-input
+Versi 0.0.0.3 : Penambahan pilihan (selectbox, radio button, checkbox)
+Versi 0.0.0.4 : Penambahan Navbar dan Footer otomatis (responsif)
+Versi 0.0.0.5 : Penambahan grup pada tombol-tombol dan optimisasi
+Versi 0.0.0.6 : Penambahan utility/perintah bantu
+Versi 0.0.0.7 : Perubahan tampilan menu dan optimisasi footer
+Versi 0.0.0.8 : Penambahan Navbar untuk sudah masuk/login dan optimisasi
+Versi 0.0.0.8 : Penambahan dropdown menu untuk Navbar sudah masuk/login dan optimisasi
+Versi 0.0.0.8 : Perubahan letak tombol menu dan tombol tutup menu di sidebar/pinggir
+#########################################################################################
+
+>>>> Navbar dan Footer otomatis, tersedia di template_navbar_footer.html <<<<
+
+>>>> Navbar Sudah Masuk/Login dan Footer otomatis, 
+		 tersedia di template_navbar_sudah_masuk_dan_footer.html <<<<
+
+>>>> Navbar Sudah Masuk/Login sudah termasuk menu dropdown !!!<<<<
+
+>>>> Edit isi konten di tempat isi konten !! <<<<
+
+## ========================== Petunjuk =====================================##
+#### Tombol-tombol
+tml-grup = untuk menambahkan margin dan padding secara otomatis
+
+tml = untuk reset tombol/button/link
+tml-pertama = untuk tombol versi 1
+tml-kedua   = untuk tombol versi 2
+
+tml-spl = tombol spesial versi 1 (width diatur sendiri)
+=>	atas = div isi dari button/link tml-spl
+=>	bawah = div isi dari bottun/link tml-spl
+
+radius = untuk membuat lengkungan disetiap sudut sebesar 50px dari besar kotak
+
+#### Inputan
+inputan = untuk dasar inputan 
+=>	label = untuk label inputan (khusus)
+=>	input = untuk input (khusus)
+
+pilihan = untuk input tipe radio atau checkbox 
+=>	label = untuk label (khusus)
+		=>	input = untuk tipe input radio atau button (khusus)
+		=>	span = untuk icon atau logo dari masing-masing tipe
+
+## ========================== Akhir dari petunjuk ===========================##

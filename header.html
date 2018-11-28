@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contoh header</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fiesto.css">
+
+</head>
+<body>
+
+	<!-- Menu pinggir atau Sidebar -->
+	<div id="mySidenav" class="pinggir">
+		<a href="javascript:void(0)" class="closebtn" onclick="tutupNav()">&times;</a>
+		<ul>
+				<li><span>Fiesto Car</span></li>
+				<li class="tml-pinggir"><a href="#">Tentang</a></li>
+				<li class="tml-pinggir"><a href="#">Masuk</a></li>
+				<li class="tml-pinggir"><a href="#">Daftar</a></li>
+			</ul>
+	</div>
+	<!-- Akhir dari Menu pinggir atau Sidebar -->
+
+	<header class="header-area">
+		<div class="tml-menu" onclick="bukaNav()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<img src="img/logo.png" class="gambar">
+		<a href="#" class="judul">Fiesto Car</a>
+
+		<div class="menu-header">
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<a href="#" class="menu-header-a">Tentang</a>
+			<div class="btn-group">
+				<a href="#" class="btn btn-outline-light">Masuk</a>
+				<a href="#" class="btn btn-outline-light">Daftar</a>
+			</div>
+			
+			<!-- Ganti menu yang ada disini sesauai keinginan -->
+		</div>
+
+	</header>
+
+	<script type="text/javascript">
+		function bukaNav() {
+			document.getElementById('mySidenav').style.width = "100%";
+		}
+		function tutupNav() {
+			document.getElementById('mySidenav').style.width = "0";
+		}
+	</script>
+
+	<script href="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script href="assets/js/popper.min.js" type="text/javascript"></script>
+	<script href="assets/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
